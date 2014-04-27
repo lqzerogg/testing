@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/zero/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+12 verbose folder .
+13 info prepublish testing@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/zero/.npm/1f1177db-tar.lock
+16 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+17 verbose lock tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz /home/zero/.npm/5234de5f-516301-0-769939785124734-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+21 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+22 verbose tar unpack /home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+23 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+24 verbose lock tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package /home/zero/.npm/febb3188-516301-0-769939785124734-package.lock
+25 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+26 verbose lock tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz /home/zero/.npm/5234de5f-516301-0-769939785124734-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry file
+31 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+32 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+33 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+34 silly lockFile 5234de5f-516301-0-769939785124734-tmp-tgz tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/tmp.tgz
+35 verbose tar pack [ '/home/zero/.npm/testing/0.0.0/package.tgz',
+35 verbose tar pack   '/home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package' ]
+36 verbose tarball /home/zero/.npm/testing/0.0.0/package.tgz
+37 verbose folder /home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+38 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+39 verbose lock tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package /home/zero/.npm/febb3188-516301-0-769939785124734-package.lock
+40 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+41 verbose lock tar:///home/zero/.npm/testing/0.0.0/package.tgz /home/zero/.npm/5e2d479d-ro-npm-testing-0-0-0-package-tgz.lock
+42 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+43 silly lockFile febb3188-516301-0-769939785124734-package tar:///home/zero/tmp/npm-3216-FRuvZox4/1398588516301-0.769939785124734/package
+44 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+45 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+46 silly lockFile beeac58a-e-zero-npm-testing-0-0-0-package /home/zero/.npm/testing/0.0.0/package
+47 verbose lock /home/zero/.npm/testing/0.0.0/package /home/zero/.npm/beeac58a-e-zero-npm-testing-0-0-0-package.lock
+48 silly lockFile beeac58a-e-zero-npm-testing-0-0-0-package /home/zero/.npm/testing/0.0.0/package
+49 silly lockFile beeac58a-e-zero-npm-testing-0-0-0-package /home/zero/.npm/testing/0.0.0/package
+50 verbose tar unpack /home/zero/.npm/testing/0.0.0/package.tgz
+51 silly lockFile 8b067c39-e-zero-npm-testing-0-0-0-package tar:///home/zero/.npm/testing/0.0.0/package
+52 verbose lock tar:///home/zero/.npm/testing/0.0.0/package /home/zero/.npm/8b067c39-e-zero-npm-testing-0-0-0-package.lock
+53 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+54 verbose lock tar:///home/zero/.npm/testing/0.0.0/package.tgz /home/zero/.npm/5e2d479d-ro-npm-testing-0-0-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry index.js
+58 silly gunzTarPerm extractEntry file
+59 silly lockFile 8b067c39-e-zero-npm-testing-0-0-0-package tar:///home/zero/.npm/testing/0.0.0/package
+60 silly lockFile 8b067c39-e-zero-npm-testing-0-0-0-package tar:///home/zero/.npm/testing/0.0.0/package
+61 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+62 silly lockFile 5e2d479d-ro-npm-testing-0-0-0-package-tgz tar:///home/zero/.npm/testing/0.0.0/package.tgz
+63 verbose chmod /home/zero/.npm/testing/0.0.0/package.tgz 644
+64 verbose chown /home/zero/.npm/testing/0.0.0/package.tgz [ 1000, 1000 ]
+65 silly lockFile 3a52ce78- .
+66 silly lockFile 3a52ce78- .
+67 silly publish { name: 'testing',
+67 silly publish   author: { name: 'lqzerogg' },
+67 silly publish   main: 'index.js',
+67 silly publish   description: 'for test',
+67 silly publish   version: '0.0.0',
+67 silly publish   keywords: [ 'test' ],
+67 silly publish   maintaners:
+67 silly publish    [ { name: 'lqzerogg',
+67 silly publish        email: 'lqzerogg@gmail.com',
+67 silly publish        web: 'www.notanumber.com' } ],
+67 silly publish   contributors:
+67 silly publish    [ { name: 'lqzerogg',
+67 silly publish        email: 'lqzerogg@gmail.com',
+67 silly publish        url: 'www.notanumber.com' } ],
+67 silly publish   bugs: { email: 'bugs@notanumber.com' },
+67 silly publish   licenses: [],
+67 silly publish   repositoris: [ { type: 'git', url: 'https://github.com/lqzerogg/testing.git' } ],
+67 silly publish   dependencies: { express: '' },
+67 silly publish   devDependencies: {},
+67 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+67 silly publish   repository: { type: 'git', url: 'https://github.com/lqzerogg/testing.git' },
+67 silly publish   license: 'ISC',
+67 silly publish   homepage: 'https://github.com/lqzerogg/testing',
+67 silly publish   readme: 'ERROR: No README data found!',
+67 silly publish   _id: 'testing@0.0.0',
+67 silly publish   dist: { shasum: 'a7b480e549a52adf45a70832dd339f15c3ad1ca7' },
+67 silly publish   _from: '.' }
+68 verbose url raw testing
+69 verbose url resolving [ 'https://registry.npmjs.org/', './testing' ]
+70 verbose url resolved https://registry.npmjs.org/testing
+71 info trying registry request attempt 1 at 16:48:36
+72 http PUT https://registry.npmjs.org/testing
+73 http 403 https://registry.npmjs.org/testing
+74 error publish Failed PUT 403
+75 error Error: forbidden user: lqzerogg not authorized to modify testing
+75 error Changed: description "Simple asynchronous testing framework. Never again count your asserts! This tiny testing library is fully callback-based and has a rich API for asserts." -> "for test"
+75 error Changed: dist-tags.latest "0.1.10" -> "0.0.0"
+75 error Added: versions.0.0.0
+75 error Changed: readme "[![Build Status](https://secure.travis-ci.org/alexfernandez/testing.png)](http://travis-ci.org/alexfernandez/testing)\u000a\u000aSimple async testing library for node.js.\u000aBetter suited to asynchronous tests than other libraries since it uses callbacks to get results.\u000a\u000aNow shows results in pretty colors!\u000a\u000a## Installation\u000a\u000aJust run:\u000a    $ npm install testing\u000a\u000aOr add package testing to your package.json dependencies.\u000a\u000a## Usage\u000a\u000aAdd asynchronous testing to your code very easily. Require testing:\u000a\u000a    var testing = require('testing');\u000a\u000a### Unit tests\u000a\u000aAdd a test function to your code, checking if results are what should be expected:\u000a\u000a    function testAdd(callback)\u000a    {\u000a\u0009\u0009testing.assertEquals(add(1, 1), 2, 'Maths fail', callback);\u000a\u0009\u0009testing.success(callback);\u000a    }\u000a\u000aRun an async test to read the contents of a file and check it is not empty:\u000a\u000a    function testAsync(callback)\u000a    {\u000a        function fs.readFile('file.txt', function(error, result)\u000a        {\u000a            if (error)\u000a            {\u000a                testing.failure('File not read', callback);\u000a            }\u000a            testing.assert(result, 'Empty file', callback);\u000a            testing.success(callback);\u000a        });\u000a    }\u000a\u000a### Running all tests\u000a\u000aRun all tests:\u000a\u000a    testing.run([\u000a        testAdd,\u000a        testAsync,\u000a    ], callback);\u000a\u000aWill run tests sequentially. Usually test are run inside an exported function `test`:\u000a\u000a    /**\u000a     * Run package tests.\u000a     */\u000a    exports.test = function(callback)\u000a    {   \u000a        var tests = [\u000a            testAdd,\u000a            testAsync,\u000a        ];\u000a        testing.run(tests, callback);\u000a    };  \u000a        \u000a    // run tests if invoked directly\u000a    if (__filename == process.argv[1])\u000a    {   \u000a        exports.test(testing.show);\u000a    }\u000a\u000aAll tests are run every time the file is invoked directly:\u000a\u000a    node my-file.js\u000a\u000aThe function `test` is exported so that tests from all source code files\u000acan be required and run in sequence from a master file,\u000ausually called `test.js` and placed in the root of the project.\u000a\u000a## API\u000a\u000aImplementation is very easy, based around three functions.\u000a\u000a### Basics\u000a\u000aCallbacks are used for asynchronous testing. They follow the usual node.js convention:\u000a\u000a    callback(error, result);\u000a\u000aWhen no callback is passed, synchronous testing is performed.\u000a\u000a#### testing.success([message], [callback])\u000a\u000aNote success for the current test. An optional message is shown if there is no callback.\u000a\u000aIf there is a callback, then it is called with the message. Default message: true.\u000a\u000aExample:\u000a\u000a    testing.success(callback);\u000a\u000a#### testing.failure([message], [callback])\u000a\u000aNote failure for the current test.\u000a\u000aIf the callback is present, calls the callback with the error:\u000a\u000a    callback(message);\u000a\u000aOtherwise the message is shown using console.error(). Default message: 'Error'.\u000a\u000aExample:\u000a\u000a    testing.failure('An error happened', callback);\u000a\u000a#### testing.run(tests, [timeout], [callback])\u000a\u000aRun a set of tests. The first parameter is an object containing one attribute for every testing function.\u000a\u000aThe tests are considered as a failure when a certain configurable timeout has passed.\u000aThe timeout parameter is in milliseconds. The default is 2 seconds per test.\u000a\u000aWhen the optional callback is given, it is called after a failure or the success of all tests.\u000a\u000aExample:\u000a\u000a    testing.run({\u000a        first: testFirst,\u000a        second: testSecond,\u000a    }, 1000, callback);\u000a\u000aFor each attribute, the key is used to display success; the value is a testing function that accepts an optional callback.\u000a\u000aNote: testing uses async to run tests in series.\u000a\u000a### Asserts\u000a\u000aThere are several utility methods for assertions.\u000a\u000a#### testing.assert(condition, [message], [callback])\u000a\u000aChecks condition; if true, does nothing. Otherwise calls the callback passing the message, if present.\u000a\u000aWhen there is no callback, just prints the message to console.log() for success, console.error() for errors.\u000aDefault message: 'Assertion error'.\u000a\u000aExample:\u000a\u000a    testing.assert(shouldBeTrue(), 'shouldBeTrue() should return a truthy value', callback);\u000a\u000a#### testing.assertEquals(actual, expected, [message], [callback])\u000a\u000aCheck that the given values are equal. Uses weak equality (==).\u000a\u000aMessage and callback behave just like above.\u000a\u000aExample:\u000a\u000a    testing.assertEquals(getOnePlusOne(), 2, 'getOnePlusOne() does not work', callback);\u000a\u000a#### testing.assertNotEquals(actual, unexpected, [message], [callback])\u000a\u000aInverse of the above, check that the given values are *not* equal. Uses weak inequality (!=).\u000a\u000a#### testing.check(error, [message], [callback])\u000a\u000aCheck there are no errors.\u000aAlmost the exact opposite of an assertion: if there is an error, count as a failure.\u000aOtherwise, do nothing.\u000a\u000aExample:\u000a\u000a    testing.check(error, 'There should be no errors', callback);\u000a\u000aSimilar to over the following code:\u000a\u000a    testing.assert(!error, 'There should be no errors', callback);\u000a\u000aBut with the advantage that it shows the actual error message should there be one.\u000a\u000a### Showing results\u000a\u000aYou can use your own function to show results. The library provides a premade callback:\u000a\u000a#### testing.show(error, result)\u000a\u000aShow an error if present, a success if there was no error.\u000a\u000aExample:\u000a\u000a    testing.run(tests, testing.show);\u000a\u000aThis line can be run at the end of every code file to run its set of tests.\u000a\u000a#### testing.showComplete(error, result)\u000a\u000aLike `testing.show()`, but shows the complete hierarchical tree of tests.\u000aTest information is therefore duplicated: once shown while running,\u000aanother after all tests.\u000a\u000aExample:\u000a\u000a    exports.test(testing.showComplete);\u000a\u000a### Sample code\u000a\u000aThis library is tested using itself, check it out!\u000a  https://github.com/alexfernandez/testing/blob/master/index.js\u000a\u000a## License\u000a\u000a(The MIT License)\u000a\u000aCopyright (c) 2013 Alex Fernández <alexfernandeznpm@gmail.com>\u000a\u000aPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\u000a\u000aThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\u000a\u000aTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\u000a\u000a" -> "ERROR: No README data found!"
+75 error Changed: time.modified "2014-04-19T00:12:19.927Z" -> "2014-04-27T08:48:16.962Z"
+75 error Added: time.0.0.0
+75 error Changed: repository.url "https://github.com/alexfernandez/testing" -> "https://github.com/lqzerogg/testing.git"
+75 error Changed: readmeFilename "README.md" -> ""
+75 error Changed: homepage "https://github.com/alexfernandez/testing" -> "https://github.com/lqzerogg/testing"
+75 error Changed: keywords.0 "testing" -> "test"
+75 error Deleted: keywords.1
+75 error Deleted: keywords.2
+75 error Deleted: keywords.3
+75 error Deleted: keywords.4
+75 error Changed: contributors.0.name "Alex Fernández" -> "lqzerogg"
+75 error Changed: contributors.0.email "alexfernandeznpm@gmail.com" -> "lqzerogg@gmail.com"
+75 error Added: contributors.0.url
+75 error Deleted: bugs.url
+75 error Added: bugs.email
+75 error Changed: license "MIT" -> "ISC"
+75 error Added: author
+75 error Added: _attachments: testing
+75 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+75 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+75 error     at Request.EventEmitter.emit (events.js:98:17)
+75 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+75 error     at Request.EventEmitter.emit (events.js:117:20)
+75 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+75 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+75 error     at _stream_readable.js:920:16
+75 error     at process._tickCallback (node.js:415:13)
+76 error If you need help, you may report this *entire* log,
+76 error including the npm and node versions, at:
+76 error     <http://github.com/npm/npm/issues>
+77 error System Linux 3.11.0-20-generic
+78 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+79 error cwd /home/zero/nodeapplication/test
+80 error node -v v0.10.26
+81 error npm -v 1.4.3
+82 verbose exit [ 1, true ]

@@ -1,0 +1,43 @@
+{
+  "name": "testing",
+  "author": "lqzerogg",
+  "main": "index.js",
+  "description": "for test",
+  "version": "0.0.0",
+  "keywords": [
+    "test"
+  ],
+  "maintaners": [
+    {
+      "name": "lqzerogg",
+      "email": "lqzerogg@gmail.com",
+      "web": "www.notanumber.com"
+    }
+  ],
+  "contributors": [
+    "lqzerogg <lqzerogg@gmail.com> (www.notanumber.com)"
+  ],
+  "bugs": {
+    "email": "bugs@notanumber.com"
+  },
+  "licenses": [],
+  "repositoris": [
+    {
+      "type": "git",
+      "url": "https://github.com/lqzerogg/testing.git"
+    }
+  ],
+  "dependencies": {
+    "express": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lqzerogg/testing.git"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/lqzerogg/testing"
+}
